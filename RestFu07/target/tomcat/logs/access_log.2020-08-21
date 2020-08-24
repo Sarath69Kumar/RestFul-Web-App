@@ -1,5 +1,0 @@
-0:0:0:0:0:0:0:1 - - [21/Aug/2020:17:13:49 +0530] "GET /rest/ HTTP/1.1" 404 - http-bio-8080-exec-2 0
-0:0:0:0:0:0:0:1 - - [21/Aug/2020:17:13:49 +0530] "GET /favicon.ico HTTP/1.1" 404 - http-bio-8080-exec-3 0
-0:0:0:0:0:0:0:1 - - [21/Aug/2020:17:14:41 +0530] "GET /RestFu07 HTTP/1.1" 302 - http-bio-8080-exec-4 0
-0:0:0:0:0:0:0:1 - - [21/Aug/2020:17:14:41 +0530] "GET /RestFu07/ HTTP/1.1" 200 57 http-bio-8080-exec-5 144
-0:0:0:0:0:0:0:1 - - [21/Aug/2020:17:15:14 +0530] "GET /RestFu07/rest/weather/chicago/2020-02-03 HTTP/1.1" 500 4494 http-bio-8080-exec-6 518
