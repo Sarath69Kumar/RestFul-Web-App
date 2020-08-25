@@ -12,7 +12,7 @@ import com.sun.jersey.api.client.WebResource.Builder;
 import com.sun.jersey.api.client.config.ClientConfig;
 import com.sun.jersey.api.client.config.DefaultClientConfig;
 
-public class GetJsonToObject 
+public class GetJsonAsObject 
 {
 	public static void main(String[] args)
 	{
