@@ -11,7 +11,7 @@ public class GetJsonAsString
 		//Create client
 		Client client = Client.create();
 		
-		WebResource webResourse = client.resource("http://localhost:8080/RestFulCRUD/rest/employee/E02");
+		WebResource webResourse = client.resource("http://localhost:8080/RestFulCRUD/rest/employee/E01");
 		
 		ClientResponse response = webResourse.accept("application/json").get(ClientResponse.class);
 		
