@@ -14,7 +14,7 @@ public class PostJsonString
 		WebResource webResource = client.resource("http://localhost:8080/RestFulCRUD/rest/employee");
 		
 		//Data sent to web service
-		String input = "{\"empNo\":\"E02\",\"empName\":\" KEERTHU\",\"position\":\"MD\"}";
+		String input = "{\"empNo\":\"E02\",\"empName\":\" KER_BAS\",\"position\":\"MD\"}";
 		
 		ClientResponse response = webResource.type("application/json").post(ClientResponse.class, input);
 		
