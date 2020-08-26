@@ -11,7 +11,7 @@ public class PostXmlString
 		Client client = Client.create();
 		
 		//Data Sent to web service
-		WebResource webResource = client.resource("/http://localhost:8080/RestFulCRUD/rest/employee");
+		WebResource webResource = client.resource("http://localhost:8080/RestFulCRUD/rest/employee/");
 		
 		String input = "<employee>"//
 				+"<empNo>E05</empNo>"//
