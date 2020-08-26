@@ -10,7 +10,7 @@ public class GetXmlAsString
 	{
 		Client client = Client.create();
 		
-		WebResource webResource = client.resource("http://localhost:8080/http://localhost:8080/RestFulCRUD/rest/employee");
+		WebResource webResource = client.resource("http://localhost:8080/RestFulCRUD/rest/employee");
 		
 		ClientResponse response = webResource.accept("application/xml").get(ClientResponse.class);
 		
