@@ -17,7 +17,7 @@ public class GetXmlAsList
 		
 		Client client = Client.create(clientConfig);
 		
-		WebResource webResource = client.resource("http://localhost:8080/http://localhost:8080/RestFulCRUD/rest/employee");
+		WebResource webResource = client.resource("http://localhost:8080/RestFulCRUD/rest/employee");
 		
 		Builder builder = webResource.accept(MediaType.APPLICATION_XML)//
 					.header("content-type", MediaType.APPLICATION_XML);
@@ -32,5 +32,9 @@ public class GetXmlAsList
 			System.out.println("Error : " + error);
 			return;
 		}
+		
+		System.out.println("List of contents...\n");
+		String output=response.getEntity(String.class);
+		System.out.println(output);
 	}
 }
