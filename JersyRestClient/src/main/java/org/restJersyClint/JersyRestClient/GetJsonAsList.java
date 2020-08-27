@@ -22,7 +22,7 @@ public class GetJsonAsList
 		
 		Client client = Client.create(clientConfig);
 		
-		WebResource webResourse = client.resource("http://localhost:8080/http://localhost:8080/RestFulCRUD/rest/employee");
+		WebResource webResourse = client.resource("http://localhost:8080/RestFulCRUD/rest/employee");
 		
 		Builder builder = webResourse.accept(MediaType.APPLICATION_JSON)//
 					.header("content-type", MediaType.APPLICATION_JSON);
@@ -43,6 +43,7 @@ public class GetJsonAsList
 			//nothing
 		};
 		
+		//https://stackoverflow.com/questions/6427478/error-when-trying-to-convert-json-to-pojo-using-jersey
 		List<Employee> list = response.getEntity(generic);
 		
 		System.out.println("Output from server... \n");
