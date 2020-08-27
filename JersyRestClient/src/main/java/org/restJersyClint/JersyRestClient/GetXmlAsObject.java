@@ -1,6 +1,5 @@
 package org.restJersyClint.JersyRestClient;
 
-import javax.print.attribute.standard.Media;
 import javax.ws.rs.core.MediaType;
 
 import org.restJersyClint.JersyRestClient.modal.Employee;
@@ -22,7 +21,7 @@ public class GetXmlAsObject
 		
 		Client client = Client.create(clientConfig);
 		
-		WebResource webResource = client.resource("http://localhost:8080/http://localhost:8080/RestFulCRUD/rest/employee");
+		WebResource webResource = client.resource("http://localhost:8080/RestFulCRUD/rest/employee/E02");
 		
 		Builder builder = webResource.accept(MediaType.APPLICATION_XML)
 				.header("content-type", MediaType.APPLICATION_XML);
@@ -32,7 +31,7 @@ public class GetXmlAsObject
 		//status 200 is successful
 		if(response.getStatus()!=200)
 		{
-			System.out.println("Error message from GetXmlAsObject: " + response.getStatus());
+			System.out.println(" Http Error message from GetXmlAsObject: " + response.getStatus());
 			String error = response.getEntity(String.class);
 			System.out.println("Error: " + error);
 			return;

@@ -1,5 +1,8 @@
 package org.restJersyClint.JersyRestClient.modal;
 
+import javax.xml.bind.annotation.XmlRootElement;
+
+@XmlRootElement
 public class Employee 
 {
 	private String empNo;
@@ -11,6 +14,20 @@ public class Employee
 		
 	}
 	
+	//right click->Source-> Generate constructor using fields
+	public Employee(String empNo, String empName, String position) 
+	{
+		super();
+		this.empNo = empNo;
+		this.empName = empName;
+		this.position = position;
+	}
+
+	/*
+	 * public Employee(String string, String string2, String string3) { // TODO
+	 * Auto-generated constructor stub }
+	 */
+
 	public String getEmpNo() {
 		return empNo;
 	}

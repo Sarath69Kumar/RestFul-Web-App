@@ -14,7 +14,7 @@ public class PostJsonObject
 		
 		WebResource webResource = client.resource("http://localhost:8080/RestFulCRUD/rest/employee");
 		
-		Employee newEmp = new Employee("E05", "PostJsonOb", "Manager");
+		Employee newEmp = new Employee("E06", "PostJsonOb", "Manager");
 		
 		ClientResponse response = webResource.type("application/json")
 									.post(ClientResponse.class, newEmp);
