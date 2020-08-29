@@ -1,0 +1,13 @@
+https://o7planning.org/en/11669/spring-boot
+https://o7planning.org/en/11267/spring-boot-tutorial-for-beginners
+
+
+
+Spring Boot and Spring MVC
+^^^^^^^^^^^^^^^^^^^^^^^^^^
+Spring boot is a module of spring for packaging the Spring-based application with sensible defaults. 
+Spring MVC is web based frame work under the Spring framework. It provides ready to use features for building web app.
+
+https://o7planning.org/en/10865/simple-crud-example-with-spring-mvc-restful-web-service
+https://o7planning.org/en/11645/crud-restful-web-service-with-spring-boot-example
+

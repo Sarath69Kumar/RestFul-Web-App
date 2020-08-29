@@ -1,2 +1,23 @@
 contextPath(pom.xml)				  /servletPath(web.xml)				 /path-from-rest-class(.java)/path-from-rest-method(.java)
 <finalName>HelloRestWakeUp</finalName>/<url-pattern>/rest/*</url-pattern>/@Path("/weather")			 /2020-06-06
+
+Creating the project
+Select->Maven Project
+Select project name and location
+	Next->
+Select an Archetype
+	Next->
+Catlog:-Select->Internal
+	Select->
+	GroupId:org.apache.maven.archetypes
+	ArctfId:maven-archetype-webapp
+	Next->
+Specify Archetype Parameters
+	GoupId->org.sarath
+	ArtiId->HelloRestWakeUp
+	Package->org.sarath.hellorest
+	Finish..
+
+In project folder
+	src->main->create folder"java"
+	
